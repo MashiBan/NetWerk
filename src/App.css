@@ -1,0 +1,60 @@
+.background{
+  z-index: -9999;
+  height:300px;
+  position: fixed;
+  width: 300px;
+  background: rgb(16, 201, 243);
+  top:15%;
+  left: 55%;
+  opacity: 0.75;
+  filter: blur(10.5rem);
+  /* border-radius: 50%; */
+  backface-visibility: hidden;
+  transition: 3s;
+
+}
+
+body{
+  display: flex;
+}
+
+.background1{
+  z-index: -9999;
+  height:200px;
+  position: fixed;
+  width: 200px;
+  background: rgb(226, 226, 233);
+  top:25%;
+  left: 68%;
+  opacity: 0.75;
+  filter: blur(5.5rem);
+  /* border-radius: 50%; */
+  backface-visibility: hidden;
+  transition: 3s;
+}
+
+
+
+
+.background2{
+  /* z-index: -2; */
+  height:300px;
+  position:fixed;
+  width: 300px;
+  background: linear-gradient(
+    -45deg,
+    rgb(20, 201, 214),
+    rgb(46, 233, 118),
+    rgb(29, 46, 228),
+    rgb(67, 147, 30)
+  );
+  top:45%;
+  left:54%;
+  opacity: 0.75;
+  filter: blur(5.25rem);
+  border-radius: 50%;
+  backface-visibility: hidden;
+  transition: 1s;
+}
+
+
