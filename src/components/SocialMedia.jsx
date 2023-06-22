@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaGithub } from 'react-i
 const SocialLinksList = () => {
   return (
     <div className='bg-purple-600'>
-    <div className="flex justify-center items-center h-50  p-6  bg-black flex-col lg:flex-row  z-5 backdrop-blur-4xl opacity-75  filter">
+    <div className="flex justify-center items-center h-50  p-4  bg-black flex-col lg:flex-row  z-5 backdrop-blur-4xl opacity-75  filter">
     <div className="flex">
         <SocialButton>
           <FaFacebook className='text-blue-400 hover:text-blue-500' />
@@ -24,6 +24,7 @@ const SocialLinksList = () => {
         </SocialButton>
       </div>
     </div>
+    <div className='text-xs flex justify-center items-center text-white  bg-black flex-col lg:flex-row  z-5 backdrop-blur-4xl opacity-75  filter p-5'>Made in hurry 😬 by  <a> @NERDS</a></div>
     </div>
   );
 };
