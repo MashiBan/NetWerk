@@ -7,7 +7,7 @@ const App = () => {
     <div className="  bg-gradient-to-br from-gray-900 via-gray-900  to-purple-900 min-h-screen flex overflow-hidden">
        <div className="container mx-auto mt-24 px-4">
         <div className="flex flex-col lg:flex-row items-center hover:border-2 border-green-400 justify-between z-0 bg-black p-10 m-10 backdrop-blur-3xl opacity-60 rounded-3xl filter">
-            <div className='p-6 m-8  text-white justify-evenly flex-box rounded-xl'>
+            <div className='p-2 m-2  text-white justify-evenly flex-box rounded-xl'>
             <img src={myImage1} alt="My Image" className="w-48 h-auto z-9999 rounded-lg  flex-shrink" />
             <p className="text-sm p-6 text-white mb-2">
               Suspendisse eu leo suscipit, semper nisi at, iaculis elit.  Phasellus id facilisis eros. Nullam ullamcorper gravida risus in consectetur.   Nulla volutpat ligula at ullamcorper dignissim. Vivamus convallis pellentesquei id euismod. Vestibulum tempus nisl sed nunc placerat ultricies. Duis viverra  accumsan neque a fermentum. Vestibulum eu luctus urna, sit amet malesuada nunc.
