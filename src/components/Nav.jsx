@@ -14,31 +14,32 @@ const Navbar = () => {
                 href="#"
                 className="text-gray-300  bg-white bg-opacity-10 backdrop-filter backdrop-blur-md  p-4 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium "
               >
-                Home
+                Home🏡
+              </a>
+              
+              <a
+                href="#"
+                className="text-gray-300  bg-white bg-opacity-10 backdrop-filter backdrop-blur-md  p-4 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Features😍
               </a>
               <a
                 href="#"
                 className="text-gray-300  bg-white bg-opacity-10 backdrop-filter backdrop-blur-md  p-4 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
-                Features
+                AboutUs😊
               </a>
               <a
                 href="#"
                 className="text-gray-300  bg-white bg-opacity-10 backdrop-filter backdrop-blur-md  p-4 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
-                AboutUs
+                Contact🤝
               </a>
               <a
                 href="#"
                 className="text-gray-300  bg-white bg-opacity-10 backdrop-filter backdrop-blur-md  p-4 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
-                Contact
-              </a>
-              <a
-                href="#"
-                className="text-gray-300  bg-white bg-opacity-10 backdrop-filter backdrop-blur-md  p-4 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Sign In
+                Sign In✍️
               </a>
               
             </div>

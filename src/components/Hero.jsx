@@ -13,7 +13,7 @@ const HeroSection = () => {
               today.
             </p>
             <button className="bg-purple-500 hover:bg-purple-600 shadow-xl text-white py-2 m-10 mt-3 px-4 rounded">
-              Get Started
+              Go to Dashboard!✌️
             </button>
           </div>
 
