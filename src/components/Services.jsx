@@ -7,19 +7,19 @@ const SimpleDiv = () => {
    <div className='flex justify-center bg-gray-900'>
    <h1 className="text-6xl font-bold  p-6  flex-center rounded-xl  mb-10  bg-black  text-purple-500 absolute ">Features</h1>
     <div className='flexbox inline-flex m-10 space-x-3 mt-32 justify-items-stretch overflow-hidden'>  
-     <div className="bg-black  backdrop-filter backdrop-blur-xl  backdrop:filter backdrop-blur-50  bg-opacity-60 shadow-white-lg hover:border border-purple-500 text-white justify-evenly p-6  flex-box rounded-lg">
+     <div className="bg-black  backdrop-filter backdrop-blur-xl  backdrop:filter backdrop-blur-50  bg-opacity-60 shadow-white-lg hover:border-2 border-purple-500 text-white justify-evenly p-6  flex-box rounded-lg">
      <div className="lg:w-1/2">
           <img src={myImage3} alt="My Image" className="w-full h-auto z-9999 rounded-lg flex-shrink" />
           </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et lacus id arcu sollicitudin congue non id ligula. Maecenas bibendum aliquet augue non vestibulum. Morbi vel molestie massa. Donec vulputate odio purus, non commodo nisl ultricies eu. Sed vulputate lorem vitae ultricies lobortis. Sed sit amet malesuada ipsum, at lacinia urna. Ut gravida scelerisque nunc et scelerisque.</p>
     </div>
-    <div className="bg-black  backdrop-filter backdrop-blur-xl  backdrop:filter backdrop-blur-50  bg-opacity-60 shadow-white-lg hover:border border-purple-500 transition-opacity text-white  p-6 flex-box rounded-lg">
+    <div className="bg-black  backdrop-filter backdrop-blur-xl  backdrop:filter backdrop-blur-50  bg-opacity-60 shadow-white-lg hover:border-2 border-purple-500 transition-opacity text-white  p-6 flex-box rounded-lg">
     <div className="lg:w-1/2">
           <img src={myImage2} alt="My Image" className="w-full h-auto z-9999 rounded-lg flex-shrink" />
           </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et lacus id arcu sollicitudin congue non id ligula. Maecenas bibendum aliquet augue non vestibulum. Morbi vel molestie massa. Donec vulputate odio purus, non commodo nisl ultricies eu.</p>
     </div>
-    <div className="bg-black  backdrop-filter backdrop-blur-xl  backdrop:filter backdrop-blur-50  bg-opacity-60 shadow-white-lg hover:border border-purple-500 transition-opacity text-white  p-6 flex-box rounded-lg">
+    <div className="bg-black  backdrop-filter backdrop-blur-xl  backdrop:filter backdrop-blur-50  bg-opacity-60 shadow-white-lg hover:border-2 border-purple-500 transition-opacity text-white  p-6 flex-box rounded-lg">
     <div className="lg:w-1/2">
           <img src={myImage2} alt="My Image" className="w-full h-auto z-9999 rounded-lg flex-shrink" />
           </div>

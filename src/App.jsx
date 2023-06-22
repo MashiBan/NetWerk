@@ -2,11 +2,11 @@ import React from 'react';
 import myImage1 from './assets/undraw_feeling_proud_qne1.svg';
 
 const App = () => {
-  return (
+  return (<div className='flex justify-center'>
+    <h1 className="text-6xl font-bold  p-6  flex-center rounded-xl  mb-10  bg-black  text-green-500 absolute ">AboutUs</h1>
     <div className="  bg-gradient-to-br from-gray-900 via-gray-900  to-purple-900 min-h-screen flex overflow-hidden">
-       <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center justify-between z-50 bg-black p-10 m-10 backdrop-blur-3xl opacity-40 rounded-3xl filter">
-            <h2 className="text-6xl font-bold  text-green-400 p-6 bg-black rounded">AboutUs</h2>
+       <div className="container mx-auto mt-24 px-4">
+        <div className="flex flex-col lg:flex-row items-center hover:border-2 border-green-400 justify-between z-0 bg-black p-10 m-10 backdrop-blur-3xl opacity-60 rounded-3xl filter">
             <div className='p-6 m-8  text-white justify-evenly flex-box rounded-xl'>
             <img src={myImage1} alt="My Image" className="w-48 h-auto z-9999 rounded-lg  flex-shrink" />
             <p className="text-sm p-6 text-white mb-2">
@@ -18,6 +18,7 @@ const App = () => {
             </div>
           </div>
         </div>
+    </div>
     </div>
   );
 };
