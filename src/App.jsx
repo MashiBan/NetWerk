@@ -3,7 +3,7 @@ import myImage1 from './assets/undraw_feeling_proud_qne1.svg';
 
 const App = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-gray-900  to-purple-900 min-h-screen flex overflow-hidden">
+    <div className="  bg-gradient-to-br from-gray-900 via-gray-900  to-purple-900 min-h-screen flex overflow-hidden">
        <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between z-50 bg-black p-10 m-10 backdrop-blur-3xl opacity-40 rounded-3xl filter">
             <h2 className="text-6xl font-bold  text-green-400 p-6 bg-black rounded">AboutUs</h2>

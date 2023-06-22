@@ -8,7 +8,7 @@ import Hero from "./components/Hero.jsx";
 import BackgroundComponent from './components/Background.jsx'
 import Services from './components/Services.jsx'
 import AboutUsSection from './components/AboutUs.jsx'
-import ExpandableDiv from './SignUp.jsx'
+import SocialLinksList from './components/SocialMedia.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,9 +17,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hero />
     <Services />
     {/* <AboutUsSection/> */}
-    {/* <ExpandableDiv></ExpandableDiv> */}
     <App />
-   
+    <SocialLinksList />
    
   </React.StrictMode>,
 )
